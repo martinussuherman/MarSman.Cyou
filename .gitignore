@@ -1,0 +1,5 @@
+bin/**
+obj/**
+seed/**
+appsettings.Development.json
+piranha.db
