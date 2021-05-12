@@ -89,7 +89,6 @@ namespace MarSman.Cyou.Controllers
 
             await _api.Pages.SaveAsync(docsPage);
 
-
             // Add start page
             var startPage = await StandardPage.CreateAsync(_api);
             startPage.Id = Guid.NewGuid();
